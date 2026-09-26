@@ -93,8 +93,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
-      secondary: "#2F3136",
+      primary: "#FFFFFF",
+      secondary: "#000000",
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287",
@@ -161,9 +161,9 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "trbls",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "trbls",
       // Currency symbol shown in balances.
       symbol: "$",
     },
@@ -175,15 +175,15 @@ export const botConfig = {
     baseBankCapacity: 100000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 1100,
 
     // Work command random payout range.
-    workMin: 10,
-    workMax: 100,
+    workMin: 1000,
+    workMax: 1500,
 
     // Beg command random payout range.
-    begMin: 5,
-    begMax: 50,
+    begMin: 500,
+    begMax: 1000,
 
     // Command cooldowns (milliseconds).
     cooldowns: {
